@@ -1,9 +1,12 @@
 @media (max-width: 376px) {
     .cc {
-        margin: 0.8rem;
+        margin: 0.9rem;
         width: 90vw !important; /* Adjust padding for smaller screens */
     }
     .col-md-8{
         padding: 0;
+    }
+    .c{
+        padding-left: 2rem;
     }
 }

@@ -1,0 +1,120 @@
+{
+    "announcement":[
+        {
+            "clubName":"YACC",
+            "logo_image":"yacc.jpg",
+            "time" : "3 hrs ago",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+        },
+        {
+            "clubName":"Horticulture Club",
+            "logo_image":"horticulture_logo.png",
+            "time" : "3 hrs ago",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+        },
+        {
+            "clubName":"Curtain Call",
+            "logo_image":"curtaincall.png",
+            "time" : "3 hrs ago",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+        },
+        {
+            "clubName":"EBSB",
+            "logo_image":"ebsb.jpg",
+            "time" : "3 hrs ago",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+        }  
+    ],
+
+    "liveEvent":[
+        {
+            "clubName":"YACC",
+            "logo_image":"yacc.jpg",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente.",
+            "poster_img" : "https://picsum.photos/150/150"
+        },
+        {
+            "clubName":"Horticulture Club",
+            "logo_image":"horticulture_logo.png",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente.",
+            "poster_img" : "https://picsum.photos/150/150"
+        },
+        {
+            "clubName":"Curtain Call",
+            "logo_image":"curtaincall.png",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente.",
+            "poster_img" : "https://picsum.photos/150/150"
+        },
+        {
+            "clubName":"EBSB",
+            "logo_image":"ebsb.jpg",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente.",
+            "poster_img" : "https://picsum.photos/150/150"
+        }  
+    ],
+
+    "projectApproval":[
+        {   
+            "name": "PROJECT_1",
+            "clubName":"YACC",
+            "logo_image":"yacc.jpg",
+            "member_num": "10",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "Skill1": "web development",
+            "Skill2": "cpp",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+           
+        },
+        {
+            "name": "PROJECT_2",
+            "clubName":"Horticulture Club",
+            "logo_image":"horticulture_logo.png",
+            "member_num": "7",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "Skill1": "python/c",
+            "Skill2": "react",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+            
+        },
+        {
+            "name": "PROJECT_3",
+            "clubName":"EBSB",
+            "logo_image":"ebsb.jpg",
+            "member_num": "9",
+            "time" : "3 hrs ago",
+            "date" : "14 March",
+            "venue" : "Common room",
+            "Skill1": "nodejs",
+            "Skill2": "app development",
+            "eventTitle" : "Announcement/Event Title",
+            "content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quidem rem unde non aut perspiciatis in, facilis possimus distinctio labore consequatur quas quibusdam? Ut blanditiis possimus itaque voluptas ea sapiente."
+            
+        }  
+    ]
+}
