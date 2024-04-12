@@ -15,7 +15,7 @@ export default function Login() {
 
 
             if (userObject.iss === "https://accounts.google.com") {
-                if (userObject.aud === "Client id") {
+                if (userObject.aud === "") {
                     if (userObject.email.endsWith("@smail.iitpkd.ac.in")) {
                         setUser(userObject);
                         document.getElementById("signInDiv").hidden = true;
