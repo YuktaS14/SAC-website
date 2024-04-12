@@ -1,0 +1,42 @@
+{
+    "Pie": {
+        "Expenditure": {
+            "Travel": 500,
+            "Merch": 100,
+            "Workshop": 100
+        },
+        "Color": {
+            "Red": "Travel",
+            "Blue": "Merch",
+            "Yellow": "Workshop"
+        }
+    },
+    "Recent": {
+        "colHead": [
+            "Name",
+            "Mode",
+            "Date",
+            "Amount"
+        ],
+        "objs": [
+            {
+                "Name": "Figma",
+                "Mode": "Cash",
+                "Date": "26-06-2023",
+                "Amount": -5000
+            },
+            {
+                "Name": "Merch",
+                "Mode": "UPI",
+                "Date": "26-06-2023",
+                "Amount": -8000
+            },
+            {
+                "Name": "Travel",
+                "Mode": "Cheque",
+                "Date": "26-06-2023",
+                "Amount": 10000
+            }
+        ]
+    }
+}
