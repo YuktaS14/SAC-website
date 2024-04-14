@@ -4,9 +4,11 @@ import { HiAnnotation, HiDotsHorizontal } from "react-icons/hi";
 import { IoPeopleSharp } from "react-icons/io5";
 import { GiAerialSignal } from "react-icons/gi";
 import './LayoutLeft.css'
-import { Link } from 'react-router-dom';
+import { Link ,useLocation} from 'react-router-dom';
 
 const Layout = (props) => {
+    var location = useLocation();
+    var userObject = location.state?.userObject;
 
     let bclrdash = props.ele === 'dashboard' ? 'rgb(243 130 33)' : 'rgb(250 199 170)';
     let bclrannounce = props.ele === 'announce' ? 'rgb(243 130 33)' : 'rgb(250 199 170)';
@@ -28,7 +30,7 @@ const Layout = (props) => {
             lftmnu.style.backgroundColor = 'rgb(250 199 170)'
             lftmnu.style.height = '100%'
             lftmnu.style.width = '20rem'
-            // document.querySelector('.leftMenu').style.backgroundColor = 'rgb(250 199 170)'
+            document.querySelector('.leftMenu').style.backgroundColor = 'rgb(250 199 170)'
             isLeftVis = true
         }
         else {
@@ -99,6 +101,7 @@ const Layout = (props) => {
                         <p style={{ margin: '0' }}>Student Affairs Council</p>
                         <p style={{ fontSize: '58%', color: 'Orange' }}>
                             Indian Institute of Technology Palakkad
+                            hiiiiiiiiiiii 
                         </p>
                     </span>
 
@@ -178,3 +181,8 @@ const Layout = (props) => {
 }
 
 export default Layout
+
+
+
+
+

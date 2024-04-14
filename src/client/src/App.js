@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -26,6 +26,9 @@ import ProjectApproval from './components/Dashboard/More/ProjectApproval/Project
 
 function App() {
   const [duration,setDuration] = useState(true)
+
+  const [user,setUser]= useState({});
+
   useEffect(
     () => {
       setTimeout(() => {
